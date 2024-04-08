@@ -1,0 +1,6 @@
+-----Student-----
+name=董岩
+age=15
+-----Teacher-----
+name=枫花恋
+salary=6000
