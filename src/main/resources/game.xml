@@ -10,11 +10,11 @@
                            http://www.springframework.org/schema/aop
                            http://www.springframework.org/schema/aop/spring-aop.xsd">
 
-<!--        <bean id="Car" class="aop_hom.Car" />-->
-<!--        <bean id="Bus" class="aop_hom.Bus" />-->
-<!--        <bean id="Truck" class="aop_hom.Truck" />-->
+    <bean id="sword" class="game.Sword"></bean>
 
-    <context:component-scan base-package="aop_hom"></context:component-scan>
+    <bean id="shield" class="game.Shield"></bean>
+
+    <context:component-scan base-package="game"></context:component-scan>
 
     <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
 </beans>
